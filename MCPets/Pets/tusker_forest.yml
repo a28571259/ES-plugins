@@ -1,0 +1,49 @@
+Id: Tusker_Forest
+MythicMob: Tusker_Forest
+Permission: mcpet.tusker_forest
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bForest Tusker
+  Material: BRICK
+  CustomModelData: 2562
+  Description:
+  - §fGet your pet Forest Tusker!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Tusker_Forest:
+    MythicMob: Tusker_Forest
+    Permission: skin.tusker_forest
+    Icon:
+      Material: BRICK
+      CustomModelData: 2562
+      DisplayName: §2Forest Tusker
+      Lore:
+      - §fGet your pet Forest Tusker!
+  Tusker_Dreamlight:
+    MythicMob: Tusker_Dreamlight
+    Permission: skin.tusker_dreamlight
+    Icon:
+      Material: BRICK
+      CustomModelData: 2561
+      DisplayName: §bDreamlight Tusker
+      Lore:
+      - §fGet your pet Dreamlight Tusker!
+  Tusker_Demonic:
+    MythicMob: Tusker_Demonic
+    Permission: skin.tusker_demonic
+    Icon:
+      Material: BRICK
+      CustomModelData: 2560
+      DisplayName: §4Demonic Tusker
+      Lore:
+      - §fGet your pet Demonic Tusker!
+# wWOjpEe5p2Q2ZEdGhma5hlUvVlWzUERNRTSE5kMJRlT4RzVZNncwxEaJFmYIdjNONzQyk1M

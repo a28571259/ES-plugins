@@ -1,0 +1,58 @@
+Id: Sky_Serpent_Jade
+MythicMob: Sky_Serpent_Jade
+Permission: mcpet.sky_serpent_jade
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bJade Sky Serpent
+  Material: BRICK
+  CustomModelData: 2545
+  Description:
+  - §fGet your pet Jade Sky Serpent!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Sky_Serpent_Jade:
+    MythicMob: Sky_Serpent_Jade
+    Permission: skin.sky_serpent_jade
+    Icon:
+      Material: BRICK
+      CustomModelData: 2545
+      DisplayName: §aJade Sky Serpent
+      Lore:
+      - §fGet your pet Jade Sky Serpent!
+  Sky_Serpent_Magma:
+    MythicMob: Sky_Serpent_Magma
+    Permission: skin.sky_serpent_magma
+    Icon:
+      Material: BRICK
+      CustomModelData: 2546
+      DisplayName: §4Magma Sky Serpent
+      Lore:
+      - §fGet your pet Magma Sky Serpent!
+  Sky_Serpent_Solar:
+    MythicMob: Sky_Serpent_Solar
+    Permission: skin.sky_serpent_solar
+    Icon:
+      Material: BRICK
+      CustomModelData: 2547
+      DisplayName: §eSolar Sky Serpent
+      Lore:
+      - §fGet your pet Solar Sky Serpent!
+  Sky_Serpent_Spectral:
+    MythicMob: Sky_Serpent_Spectral
+    Permission: skin.sky_serpent_spectral
+    Icon:
+      Material: BRICK
+      CustomModelData: 2548
+      DisplayName: §bSpectral Sky Serpent
+      Lore:
+      - §fGet your pet Spectral Sky Serpent!

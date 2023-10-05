@@ -1,0 +1,39 @@
+Id: Lizard_Aqua
+MythicMob: Lizard_Aqua
+Permission: mcpet.lizard_aqua
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bAqua Lizard
+  Material: BRICK
+  CustomModelData: 2504
+  Description:
+  - §fGet your pet Aqua Lizard!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Lizard_Aqua:
+    MythicMob: Lizard_Aqua
+    Permission: skin.lizard_aqua
+    Icon:
+      Material: BRICK
+      CustomModelData: 2504
+      DisplayName: §bAqua Lizard
+      Lore:
+      - §fGet your pet Aqua Lizard!
+  Lizard_Lava:
+    MythicMob: Lizard_Lava
+    Permission: skin.lizard_lava
+    Icon:
+      Material: BRICK
+      CustomModelData: 2505
+      DisplayName: §cLava Lizard
+      Lore:
+      - §fGet your pet Lava Lizard!

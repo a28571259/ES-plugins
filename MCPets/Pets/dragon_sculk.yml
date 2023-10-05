@@ -1,0 +1,58 @@
+Id: Dragon_Sculk
+MythicMob: Dragon_Sculk
+Permission: mcpet.dragon_sculk
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bSculk Dragon
+  Material: BRICK
+  CustomModelData: 2503
+  Description:
+  - §fGet your pet Sculk Dragon!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Dragon_Sculk:
+    MythicMob: Dragon_Sculk
+    Permission: skin.dragon_sculk
+    Icon:
+      Material: BRICK
+      CustomModelData: 2503
+      DisplayName: §3Sculk Dragon
+      Lore:
+      - §fGet your pet Sculk Dragon!
+  Dragon_Nether:
+    MythicMob: Dragon_Nether
+    Permission: skin.dragon_nether
+    Icon:
+      Material: BRICK
+      CustomModelData: 2502
+      DisplayName: §cNether Dragon
+      Lore:
+      - §fGet your pet Nether Dragon!
+  Dragon_Glacial:
+    MythicMob: Dragon_Glacial
+    Permission: skin.dragon_glacial
+    Icon:
+      Material: BRICK
+      CustomModelData: 2501
+      DisplayName: §fGlacial Dragon
+      Lore:
+      - §fGet your pet Glacial Dragon!
+  Dragon_Desert:
+    MythicMob: Dragon_Desert
+    Permission: skin.dragon_desert
+    Icon:
+      Material: BRICK
+      CustomModelData: 2500
+      DisplayName: §eDesert Dragon
+      Lore:
+      - §fGet your pet Desert Dragon!

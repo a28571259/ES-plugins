@@ -1,0 +1,58 @@
+Id: Hippogryph_Common
+MythicMob: Hippogryph_Common
+Permission: mcpet.hippogryph_common
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bHippogryph
+  Material: BRICK
+  CustomModelData: 2538
+  Description:
+  - §fGet your pet Hippogryph!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Hippogryph_Common:
+    MythicMob: Hippogryph_Common
+    Permission: skin.hippogryph_common
+    Icon:
+      Material: BRICK
+      CustomModelData: 2538
+      DisplayName: §6Hippogryph
+      Lore:
+      - §fGet your pet Hippogryph!
+  Hippogryph_Crystal:
+    MythicMob: Hippogryph_Crystal
+    Permission: skin.hippogryph_crystal
+    Icon:
+      Material: BRICK
+      CustomModelData: 2539
+      DisplayName: §bCrystal Hippogryph
+      Lore:
+      - §fGet your pet Crystal Hippogryph!
+  Hippogryph_Fallen:
+    MythicMob: Hippogryph_Fallen
+    Permission: skin.hippogryph_fallen
+    Icon:
+      Material: BRICK
+      CustomModelData: 2540
+      DisplayName: §4Fallen Hippogryph
+      Lore:
+      - §fGet your pet Fallen Hippogryph!
+  Hippogryph_Royal:
+    MythicMob: Hippogryph_Royal
+    Permission: skin.hippogryph_royal
+    Icon:
+      Material: BRICK
+      CustomModelData: 2541
+      DisplayName: §eRoyal Hippogryph
+      Lore:
+      - §fGet your pet Royal Hippogryph!

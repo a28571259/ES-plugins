@@ -1,0 +1,58 @@
+Id: Wolfhawk_Dire
+MythicMob: Wolfhawk_Dire
+Permission: mcpet.wolfhawk_dire
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bDire Wolfhawk
+  Material: BRICK
+  CustomModelData: 2563
+  Description:
+  - §fGet your pet Dire Wolfhawk!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Wolfhawk_Dire:
+    MythicMob: Wolfhawk_Dire
+    Permission: skin.wolfhawk_dire
+    Icon:
+      Material: BRICK
+      CustomModelData: 2563
+      DisplayName: §6Dire Wolfhawk
+      Lore:
+      - §fGet your pet Dire Wolfhawk!
+  Wolfhawk_Fallen:
+    MythicMob: Wolfhawk_Fallen
+    Permission: skin.wolfhawk_fallen
+    Icon:
+      Material: BRICK
+      CustomModelData: 2564
+      DisplayName: §4Fallen Wolfhawk
+      Lore:
+      - §fGet your pet Fallen Wolfhawk!
+  Wolfhawk_Fullmoon:
+    MythicMob: Wolfhawk_Fullmoon
+    Permission: skin.wolfhawk_fullmoon
+    Icon:
+      Material: BRICK
+      CustomModelData: 2565
+      DisplayName: §fFullmoon Wolfhawk
+      Lore:
+      - §fGet your pet Fullmoon Wolfhawk!
+  Wolfhawk_Stormcloud:
+    MythicMob: Wolfhawk_Stormcloud
+    Permission: skin.wolfhawk_stormcloud
+    Icon:
+      Material: BRICK
+      CustomModelData: 2566
+      DisplayName: §5Stormcloud Wolfhawk
+      Lore:
+      - §fGet your pet Stormcloud Wolfhawk!

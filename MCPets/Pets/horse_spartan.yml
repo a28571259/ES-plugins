@@ -1,0 +1,58 @@
+Id: Horse_Spartan
+MythicMob: Horse_Spartan
+Permission: mcpet.horse_spartan
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bSpartan Horse
+  Material: BRICK
+  CustomModelData: 2524
+  Description:
+  - §fGet your pet Spartan Horse!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Horse_Spartan:
+    MythicMob: Horse_Spartan
+    Permission: skin.horse_spartan
+    Icon:
+      Material: BRICK
+      CustomModelData: 2524
+      DisplayName: §6Spartan Horse
+      Lore:
+      - §fGet your pet Spartan Horse!
+  Horse_Unicorn:
+    MythicMob: Horse_Unicorn
+    Permission: skin.horse_unicorn
+    Icon:
+      Material: BRICK
+      CustomModelData: 2525
+      DisplayName: §6Unicorn
+      Lore:
+      - §fGet your pet Unicorn!
+  Horse_Glacial:
+    MythicMob: Horse_Glacial
+    Permission: skin.horse_glacial
+    Icon:
+      Material: BRICK
+      CustomModelData: 2521
+      DisplayName: §bGlacial Horse
+      Lore:
+      - §fGet your pet Glacial Horse!
+  Horse_Magma:
+    MythicMob: Horse_Magma
+    Permission: skin.horse_magma
+    Icon:
+      Material: BRICK
+      CustomModelData: 2522
+      DisplayName: §cMagma Horse
+      Lore:
+      - §fGet your pet Magma Horse!
+# 1222354326466351683720808

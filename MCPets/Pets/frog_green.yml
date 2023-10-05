@@ -1,0 +1,48 @@
+Id: Frog_Green
+MythicMob: Frog_Green
+Permission: mcpet.frog_green
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bGreen Frog
+  Material: BRICK
+  CustomModelData: 2553
+  Description:
+  - §fGet your pet Green Frog!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Frog_Green:
+    MythicMob: Frog_Green
+    Permission: skin.frog_green
+    Icon:
+      Material: BRICK
+      CustomModelData: 2553
+      DisplayName: §aGreen Frog
+      Lore:
+      - §fGet your pet Green Frog!
+  Frog_Permafrost:
+    MythicMob: Frog_Permafrost
+    Permission: skin.frog_permafrost
+    Icon:
+      Material: BRICK
+      CustomModelData: 2554
+      DisplayName: §bPermafrost Frog
+      Lore:
+      - §fGet your pet Permafrost Frog!
+  Frog_Royal:
+    MythicMob: Frog_Royal
+    Permission: skin.frog_royal
+    Icon:
+      Material: BRICK
+      CustomModelData: 2555
+      DisplayName: §eRoyal Frog
+      Lore:
+      - §fGet your pet Royal Frog!

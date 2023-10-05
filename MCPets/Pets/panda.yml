@@ -1,0 +1,20 @@
+Id: Panda
+MythicMob: Panda_Mount
+Permission: mcpet.panda
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bPanda
+  Material: BRICK
+  CustomModelData: 2510
+  Description:
+  - §fGet your pet Panda!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER

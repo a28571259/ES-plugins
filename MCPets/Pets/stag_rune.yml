@@ -1,0 +1,57 @@
+Id: Stag_Rune
+MythicMob: Stag_Rune
+Permission: mcpet.stag_rune
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bRune Stag
+  Material: BRICK
+  CustomModelData: 2551
+  Description:
+  - §fGet your pet Rune Stag!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Stag_Rune:
+    MythicMob: Stag_Rune
+    Permission: skin.stag_rune
+    Icon:
+      Material: BRICK
+      CustomModelData: 2551
+      DisplayName: §bRune Stag
+      Lore:
+      - §fGet your pet Rune Stag!
+  Stag_Heavenly:
+    MythicMob: Stag_Heavenly
+    Permission: skin.stag_heavenly
+    Icon:
+      Material: BRICK
+      CustomModelData: 2550
+      DisplayName: §eHeavenly Stag
+      Lore:
+      - §fGet your pet Heavenly Stag!
+  Stag_Demonic:
+    MythicMob: Stag_Demonic
+    Permission: skin.stag_demonic
+    Icon:
+      Material: BRICK
+      CustomModelData: 2549
+      DisplayName: §cDemonic Stag
+      Lore:
+      - §fGet your pet Demonic Stag!
+  Stag_Void:
+    MythicMob: Stag_Void
+    Permission: skin.stag_void
+    Icon:
+      Material: BRICK
+      CustomModelData: 2552
+      DisplayName: §5Void Stag
+      Lore:
+      - §fGet your pet Void Stag!

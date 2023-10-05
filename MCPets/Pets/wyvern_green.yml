@@ -1,0 +1,58 @@
+Id: Wyvern_Green
+MythicMob: Wyvern_Green
+Permission: mcpet.wyvern_green
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §2Green Wyvern
+  Material: BRICK
+  CustomModelData: 2568
+  Description:
+  - §fGet your pet Green Wyvern!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Wyvern_Green:
+    MythicMob: Wyvern_Green
+    Permission: skin.wyvern_green
+    Icon:
+      Material: BRICK
+      CustomModelData: 2568
+      DisplayName: §2Green Wyvern
+      Lore:
+      - §fGet your pet Green Wyvern!
+  Wyvern_Ender:
+    MythicMob: Wyvern_Ender
+    Permission: skin.wyvern_ender
+    Icon:
+      Material: BRICK
+      CustomModelData: 2567
+      DisplayName: §5Ender Wyvern
+      Lore:
+      - §fGet your pet Ender Wyvern!
+  Wyvern_Inferno:
+    MythicMob: Wyvern_Inferno
+    Permission: skin.wyvern_inferno
+    Icon:
+      Material: BRICK
+      CustomModelData: 2569
+      DisplayName: §cInferno Wyvern
+      Lore:
+      - §fGet your pet Inferno Wyvern!
+  Wyvern_Undead:
+    MythicMob: Wyvern_Undead
+    Permission: skin.wyvern_undead
+    Icon:
+      Material: BRICK
+      CustomModelData: 2570
+      DisplayName: §3Undead Wyvern
+      Lore:
+      - §fGet your pet Undead Wyvern!

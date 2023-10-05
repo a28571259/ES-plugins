@@ -1,0 +1,57 @@
+Id: Golem_Arcane
+MythicMob: Golem_Arcane
+Permission: mcpet.golem_arcane
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bArcane Golem
+  Material: BRICK
+  CustomModelData: 2556
+  Description:
+  - §fGet your pet Arcane Golem!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Golem_Arcane:
+    MythicMob: Golem_Arcane
+    Permission: skin.golem_arcane
+    Icon:
+      Material: BRICK
+      CustomModelData: 2556
+      DisplayName: §bArcane Golem
+      Lore:
+      - §fGet your pet Arcane Golem!
+  Golem_Corrupted:
+    MythicMob: Golem_Corrupted
+    Permission: skin.golem_corrupted
+    Icon:
+      Material: BRICK
+      CustomModelData: 2557
+      DisplayName: §2Corrupted Golem
+      Lore:
+      - §fGet your pet Corrupted Golem!
+  Golem_Magma:
+    MythicMob: Golem_Magma
+    Permission: skin.golem_magma
+    Icon:
+      Material: BRICK
+      CustomModelData: 2558
+      DisplayName: §cMagma Golem
+      Lore:
+      - §fGet your pet Magma Golem!
+  Golem_Royal:
+    MythicMob: Golem_Royal
+    Permission: skin.golem_royal
+    Icon:
+      Material: BRICK
+      CustomModelData: 2559
+      DisplayName: §eRoyal Golem
+      Lore:
+      - §fGet your pet Royal Golem!

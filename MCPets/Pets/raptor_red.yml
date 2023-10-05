@@ -1,0 +1,48 @@
+Id: Raptor_Red
+MythicMob: Raptor_Red
+Permission: mcpet.raptor_red
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bRed Raptor
+  Material: BRICK
+  CustomModelData: 2543
+  Description:
+  - §fGet your pet Red Raptor!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Raptor_Red:
+    MythicMob: Raptor_Red
+    Permission: skin.raptor_red
+    Icon:
+      Material: BRICK
+      CustomModelData: 2543
+      DisplayName: §cRed Raptor
+      Lore:
+      - §fGet your pet Red Raptor!
+  Raptor_Nightmare:
+    MythicMob: Raptor_Nightmare
+    Permission: skin.raptor_nightmare
+    Icon:
+      Material: BRICK
+      CustomModelData: 2542
+      DisplayName: §4Nightmare Raptor
+      Lore:
+      - §fGet your pet Nightmare Raptor!
+  Raptor_Undead:
+    MythicMob: Raptor_Undead
+    Permission: skin.raptor_undead
+    Icon:
+      Material: BRICK
+      CustomModelData: 2544
+      DisplayName: §3Undead Raptor
+      Lore:
+      - §fGet your pet Undead Raptor!

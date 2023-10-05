@@ -1,0 +1,48 @@
+Id: Basilisk_Wild
+MythicMob: Basilisk_Wild
+Permission: mcpet.basilisk_wild
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bWild Basilisk
+  Material: BRICK
+  CustomModelData: 2537
+  Description:
+  - §fGet your pet Wild Basilisk!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Basilisk_Wild:
+    MythicMob: Basilisk_Wild
+    Permission: skin.Basilisk_Wild
+    Icon:
+      Material: BRICK
+      CustomModelData: 2537
+      DisplayName: §2Wild Basilisk
+      Lore:
+      - §fGet your pet Wild Basilisk!
+  Basilisk_Obsidian:
+    MythicMob: Basilisk_Obsidian
+    Permission: skin.basilisk_obsidian
+    Icon:
+      Material: BRICK
+      CustomModelData: 2535
+      DisplayName: §9Obsidian Basilisk
+      Lore:
+      - §fGet your pet Obsidian Basilisk!
+  Basilisk_Snowstorm:
+    MythicMob: Basilisk_Snowstorm
+    Permission: skin.basilisk_snowstorm
+    Icon:
+      Material: BRICK
+      CustomModelData: 2536
+      DisplayName: §bSnowstorm Basilisk
+      Lore:
+      - §fGet your pet Snowstorm Basilisk!

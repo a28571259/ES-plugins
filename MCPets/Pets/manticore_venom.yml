@@ -1,0 +1,58 @@
+Id: Manticore_Venom
+MythicMob: Manticore_Venom
+Permission: mcpet.manticore_venom
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bVenom Manticore
+  Material: BRICK
+  CustomModelData: 2509
+  Description:
+  - §fGet your pet Venom Manticore!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Manticore_Venom:
+    MythicMob: Manticore_Venom
+    Permission: skin.manticore_venom
+    Icon:
+      Material: BRICK
+      CustomModelData: 2509
+      DisplayName: §2Venom Manticore
+      Lore:
+      - §fGet your pet Venom Manticore!
+  Manticore_Aether:
+    MythicMob: Manticore_Aether
+    Permission: skin.manticore_aether
+    Icon:
+      Material: BRICK
+      CustomModelData: 2506
+      DisplayName: §eAether Manticore
+      Lore:
+      - §fGet your pet Aether Manticore!
+  Manticore_Dusk:
+    MythicMob: Manticore_Dusk
+    Permission: skin.manticore_dusk
+    Icon:
+      Material: BRICK
+      CustomModelData: 2507
+      DisplayName: §9Dusk Manticore
+      Lore:
+      - §fGet your pet Dusk Manticore!
+  Manticore_Soul:
+    MythicMob: Manticore_Soul
+    Permission: skin.manticore_soul
+    Icon:
+      Material: BRICK
+      CustomModelData: 2508
+      DisplayName: §aSoul Manticore
+      Lore:
+      - §fGet your pet Soul Manticore!

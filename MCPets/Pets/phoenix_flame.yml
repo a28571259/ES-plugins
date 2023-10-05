@@ -1,0 +1,59 @@
+Id: Phoenix_Flame
+MythicMob: Phoenix_Flame
+Permission: mcpet.phoenix_flame
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bPhoenix
+  Material: BRICK
+  CustomModelData: 2532
+  Description:
+  - §fGet your pet Phoenix!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Phoenix_Flame:
+    MythicMob: Phoenix_Flame
+    Permission: skin.phoenix_flame
+    Icon:
+      Material: BRICK
+      CustomModelData: 2532
+      DisplayName: §cPhoenix
+      Lore:
+      - §fGet your pet Phoenix!
+  Phoenix_Darkflame:
+    MythicMob: Phoenix_Darkflame
+    Permission: skin.phoenix_darkflame
+    Icon:
+      Material: BRICK
+      CustomModelData: 2531
+      DisplayName: §3Darkflame Phoenix
+      Lore:
+      - §fGet your pet Darkflame Phoenix!
+  Phoenix_Light:
+    MythicMob: Phoenix_Light
+    Permission: skin.phoenix_light
+    Icon:
+      Material: BRICK
+      CustomModelData: 2533
+      DisplayName: §eLight Phoenix
+      Lore:
+      - §fGet your pet Light Phoenix!
+  Phoenix_Thunder:
+    MythicMob: Phoenix_Thunder
+    Permission: skin.phoenix_thunder
+    Icon:
+      Material: BRICK
+      CustomModelData: 2534
+      DisplayName: §bThunder Phoenix
+      Lore:
+      - §fGet your pet Thunder Phoenix!
+# 1222354326466351683720808

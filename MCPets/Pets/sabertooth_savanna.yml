@@ -1,0 +1,48 @@
+Id: Sabertooth_Savanna
+MythicMob: Sabertooth_Savanna
+Permission: mcpet.sabertooth_savanna
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bSavanna Sabertooth
+  Material: BRICK
+  CustomModelData: 2513
+  Description:
+  - §fGet your pet Savanna Sabertooth!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Sabertooth_Savanna:
+    MythicMob: Sabertooth_Savanna
+    Permission: skin.sabertooth_savanna
+    Icon:
+      Material: BRICK
+      CustomModelData: 2513
+      DisplayName: §6Savanna Sabertooth
+      Lore:
+      - §fGet your pet Savanna Sabertooth!
+  Sabertooth_Arctic:
+    MythicMob: Sabertooth_Arctic
+    Permission: skin.sabertooth_arctic
+    Icon:
+      Material: BRICK
+      CustomModelData: 2511
+      DisplayName: §bArctic Sabertooth
+      Lore:
+      - §fGet your pet Arctic Sabertooth!
+  Sabertooth_Midnight:
+    MythicMob: Sabertooth_Midnight
+    Permission: skin.sabertooth_midnight
+    Icon:
+      Material: BRICK
+      CustomModelData: 2512
+      DisplayName: §9Midnight Sabertooth
+      Lore:
+      - §fGet your pet Midnight Sabertooth!

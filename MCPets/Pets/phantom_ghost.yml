@@ -1,0 +1,44 @@
+Id: Phantom_Ghost
+MythicMob: Phantom_Ghost
+Permission: mcpet.phantom_ghost
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §bGhost Phantom
+  Material: BRICK
+  CustomModelData: 2530
+  Description:
+  - §fGet your pet Ghost Phantom!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Phantom_Ghost:
+    MythicMob: Phantom_Ghost
+    Permission: skin.phantom_ghost
+    Icon:
+      Material: BRICK
+      CustomModelData: 2530
+      DisplayName: §3Ghost Phantom
+      Lore:
+      - §fGet your pet Ghost Phantom!
+  Phantom_Ender:
+    MythicMob: Phantom_Ender
+    Permission: skin.phantom_ender
+    Icon:
+      Material: BRICK
+      CustomModelData: 2529
+      DisplayName: §5Ender Phantom
+      Lore:
+      - §fGet your pet Ender Phantom!
+
+# LgyLY#XkyNKu/NcdO0RKA3BN9Quagb1UWv/eMr8Y8EXCtlR0jPU9xfnGGgzHWq6Jm0nQDB
+
+# 1222354326466351683720808
