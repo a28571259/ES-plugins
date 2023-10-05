@@ -182,7 +182,7 @@ Darts menu description:
 
 #➥ DRUMS TITLE AND DESCRIPTIONS
 
-Drums game title: '         &4➌➌➌  &4&lDRUMS&r &4➌➌➌'
+Drums game title: '&4➌➌➌  &4&lDRUMS&r &4➌➌➌'
 Drums menu title: '&l➌➌➌  DRUMS  ➌➌➌'
 Drums menu description:
   - '&e• &aSingleplayer.'
@@ -208,29 +208,29 @@ Drums menu description:
 
 #➥ RACES TITLE AND DESCRIPTIONS
 
-Races game title: '              &4♞ &4&lRACES&r &4♞'
-Races menu title: '&l♞ RACES ♞'
+Races game title: '&4♞ &4&l賽馬&r &4♞'
+Races menu title: '&l♞ 賽馬 ♞'
 Races menu description:
-  - '&e• &aSingleplayer.'
-  - '&e• &fPlace your bets on horses!'
-  - '&e• &fYou are betting on one of four horses!'
-  - '&e• &fIf the horse you chose wins the race,'
-  - '&e• &fyou will get a prize &6✕3'
+- '&e• &a單人遊玩。'
+- '&e• &f在馬上下注！'
+- '&e• &f對四匹馬中的一匹下注！'
+- '&e• &f如果你選擇的馬贏得比賽，'
+- '&e• &f你將獲得獎品 &6✕3'
 
 
 #➥ RACES BUTTONS
 
-Horse 1 name: '&a&lAGILE VIPER'
+Horse 1 name: '&a&l水餃馬'
 Horse 1 description: []
-Horse 2 name: '&6&lMUNICH HOUND'
+Horse 2 name: '&6&l小旅馬'
 Horse 2 description: []
-Horse 3 name: '&b&lLIGHTNING DEVIL'
+Horse 3 name: '&b&l諾熙馬'
 Horse 3 description: []
-Horse 4 name: '&a&lRUSSIAN LOCOMOTIVE'
+Horse 4 name: '&a&l丁丁馬'
 Horse 4 description: []
-Horse choose horse: '&6&lCHOOSE HORSE'
-Horse active: '&6Click to select!'
-Horse selected: '&6&lHORSE SELECTED'
+Horse choose horse: '&6&l選擇馬匹'
+Horse active: '&6點擊選擇!'
+Horse selected: '&6&l已選擇馬匹'
 
 
 # ╔══════════════════╗
@@ -239,27 +239,27 @@ Horse selected: '&6&lHORSE SELECTED'
 
 #➥ PYRAMID TITLE AND DESCRIPTIONS
 
-Pyramid game title: '            &4☄ &4&lPYRAMID&r &4☄'
-Pyramid menu title: '&l☄ PYRAMID ☄'
+Pyramid game title: '&4☄ &4&l金字塔&r &4☄'
+Pyramid menu title: '&l☄ 金字塔 ☄'
 Pyramid menu description:
-  - '&e• &aSingleplayer.'
-  - '&e• &fChoose one of the slots above.'
-  - '&e• &fThe game starts immediately.'
-  - '&e• &fYou need to hit a hole.'
+  - '&e• &a單人遊玩。'
+  - '&e• &f選擇以上的一個插槽。'
+  - '&e• &f遊戲立即開始。'
+  - '&e• &f你需要擊中一個孔。'
   - ' '
-  - '&e⇨ &c&lTNT &f- &cgame over!'
-  - '&e⇨ &5&lWRONG HOPPER &f- &cgame over!'
+  - '&e⇨ &c&lTNT &f- &c遊戲結束！'
+  - '&e⇨ &5&lWRONG HOPPER &f- &c遊戲結束！'
   - '&e⇨ &6&lRARE STAR &f- &6✕20'
   - ' '
-  - '&fFor hitting the right hopper - &6✕3!'
+  - '&f擊中正確的漏斗 - &6✕3！'
 
 
 #➥ PYRAMID ITEMS
 
-Pyramid hopper win title: '&6&lWIN ✕3'
-Pyramid hopper lose title: '&6&lLOSE'
+Pyramid hopper win title: '&6&l獲勝 ✕3'
+Pyramid hopper lose title: '&6&l失敗'
 Pyramid tnt title: '&c&lBOMB'
-Pyramid rare star title: '&6&lRARE STAR'
+Pyramid rare star title: '&6&l稀有星星!'
 
 
 # ╔═════════════════╗
@@ -268,30 +268,29 @@ Pyramid rare star title: '&6&lRARE STAR'
 
 #➥ STAIRS TITLE AND DESCRIPTIONS
 
-Stairs game title: '              &4⇧ &4&lSTAIRS&r &4⇧'
-Stairs menu title: '&l⇧ STAIRS ⇧'
+Stairs game title: '&4⇧ &4&l爬梯&r &4⇧'
+Stairs menu title: '&l⇧ 爬梯 ⇧'
 Stairs menu description:
-  - '&e• &aSingleplayer.'
-  - '&e• &fYou need to move up choosing'
-  - '&e• &fa block at each level.'
-  - '&e• &fIf you hit a bomb, the game is over!'
+  - '&e• &a單人遊玩。'
+  - '&e• &f你需要選擇每個層次的一個方塊上升。'
+  - '&e• &f如果你碰到炸彈，遊戲就結束了！'
   - ' '
-  - '&e⇨ &2&lFIRST LEVEL &f- &6✕0.3'
-  - '&e⇨ &b&lSECOND LEVEL &f- &6✕0.5'
-  - '&e⇨ &9&lTHIRD LEVEL &f- &6✕0.8'
-  - '&e⇨ &5&lFOURTH LEVEL &f- &6✕1.3'
-  - '&e⇨ &c&lFIFTH LEVEL &f- &6✕2'
-  - '&e⇨ &6&lSIXTH LEVEL &f- &6✕3'
+  - '&e⇨ &2&l第一層 &f- &6✕0.3'
+  - '&e⇨ &b&l第二層 &f- &6✕0.5'
+  - '&e⇨ &9&l第三層 &f- &6✕0.8'
+  - '&e⇨ &5&l第四層 &f- &6✕1.3'
+  - '&e⇨ &c&l第五層 &f- &6✕2'
+  - '&e⇨ &6&l第六層 &f- &6✕3'
 
 
 #➥ STAIRS BOOSTERS
 
-Booster 6 lvl: '&6&lBOOSTER ✕3'
-Booster 5 lvl: '&c&lBOOSTER ✕2'
-Booster 4 lvl: '&5&lBOOSTER ✕1.3'
-Booster 3 lvl: '&9&lBOOSTER ✕0.8'
-Booster 2 lvl: '&b&lBOOSTER ✕0.5'
-Booster 1 lvl: '&2&lBOOSTER ✕0.3'
+Booster 6 lvl: '&6&l增益 ✕3'
+Booster 5 lvl: '&c&l增益 ✕2'
+Booster 4 lvl: '&5&l增益 ✕1.3'
+Booster 3 lvl: '&9&l增益 ✕0.8'
+Booster 2 lvl: '&b&l增益 ✕0.5'
+Booster 1 lvl: '&2&l增益 ✕0.3'
 
 
 # ╔══════════════════╗
@@ -300,21 +299,20 @@ Booster 1 lvl: '&2&lBOOSTER ✕0.3'
 
 #➥ LOTTERY TITLE AND DESCRIPTIONS
 
-Lottery game title: '            &4♤ &4&lLOTTERY&r &4♤'
-Lottery menu title: '&l♤ LOTTERY ♤'
+Lottery game title: '&4♤ &4&l彩票&r &4♤'
+Lottery menu title: '&l♤ 彩票 ♤'
 Lottery menu description:
-  - '&e• &aSingleplayer.'
-  - '&e• &fYou have been given a lottery ticket.'
-  - '&e• &fAnd you are given 5 clicks!'
-  - '&e• &fFor each click, you open a block.'
-  - '&e• &fIt might be trash, it might be an amplifier.'
-  - '&e• &fAt the end of the game, you multiply your'
-  - '&e• &fbet by the highest amplifier!'
+  - '&e• &a單人遊玩。'
+  - '&e• &f你已經獲得了一張彩票。'
+  - '&e• &f你有 5 次點擊的機會！'
+  - '&e• &f每次點擊，你都會打開一個方塊。'
+  - '&e• &f它可能是垃圾，也可能是一個增益器。'
+  - '&e• &f遊戲結束時，你的賭注將與最高的增益器相乘！'
   - ' '
-  - '&fThere is a number on the booster, for example - &6&l9'
-  - '&e⇨ &b&lBLUE BOOSTER &r&f+ &7number &f- &6✕0,09'
-  - '&e⇨ &2&lGREEN BOOSTER &r&f+ &7number &f- &6✕0,9'
-  - '&e⇨ &6&lGOLD BOOSTER &r&f+ &7number &f- &6✕9'
+  - '&f增益器上有一個數字，例如 - &6&l9'
+  - '&e⇨ &b&l藍色增益 &r&f+ &7數字 &f- &6✕0.09'
+  - '&e⇨ &2&l綠色增益 &r&f+ &7數字 &f- &6✕0.9'
+  - '&e⇨ &6&l金色增益 &r&f+ &7數字 &f- &6✕9'
 
 
 # ╔════════════════╗
@@ -323,34 +321,34 @@ Lottery menu description:
 
 #➥ CRASH TITLE AND DESCRIPTIONS
 
-Crash game title: '            &4☒ &4&lCRASH&r &4☒'
-Crash menu title: '&l☒ CRASH ☒'
+Crash game title: '&4☒ &4&l俄羅斯轉盤&r &4☒'
+Crash menu title: '&l☒ 俄羅斯轉盤 ☒'
 Crash menu description:
-  - '&e• &bMultiplayer.'
-  - '&e• &fYou are given a line with odds.'
-  - '&e• &fYou place your bet and start the game!'
-  - '&e• &fThe ratio is constantly increasing'
-  - '&e• &fand can fall at any moment and you will lose!'
-  - '&e• &fChoose the right time to withdraw your coins!'
+  - '&e• &b多人遊玩。'
+  - '&e• &f你會獲得一行賠率。'
+  - '&e• &f你下注並開始遊戲！'
+  - '&e• &f賠率比例不斷增加'
+  - '&e• &f並且可能隨時下跌，你將失去賭注！'
+  - '&e• &f選擇適合的時機提取你的硬幣！'
   - ' '
-  - '&fThese are the colors of the boosters:'
-  - '&e⇨ &a&lLIME BOOSTER &r&f - &6✕0&8...&6✕2'
-  - '&e⇨ &b&lBLUE BOOSTER &r&f - &6✕2&8...&6✕5'
-  - '&e⇨ &e&lYELLOW BOOSTER &r&f - &6✕5&8...&6✕10'
-  - '&e⇨ &c&lRED BOOSTER &r&f - &6✕10&8...&6✕25'
-  - '&e⇨ &7&lBLACK BOOSTER &r&f - &6✕25&8...&6✕100'
+  - '&f這些是增益器的顏色：'
+  - '&e⇨ &a&l綠色增益 &r&f - &6✕0&8...&6✕2'
+  - '&e⇨ &b&l藍色增益 &r&f - &6✕2&8...&6✕5'
+  - '&e⇨ &e&l黃色增益 &r&f - &6✕5&8...&6✕10'
+  - '&e⇨ &c&l紅色增益 &r&f - &6✕10&8...&6✕25'
+  - '&e⇨ &7&l黑色增益 &r&f - &6✕25&8...&6✕100'
 
 
 #➥ CRASH INFO
 
-Crash waiting title: '&bWait to spin...'
+Crash waiting title: '&b等待選轉...'
 Crash waiting description:
   - '&70:0%time%'
-Crash spinning title: '&bSpinning...'
+Crash spinning title: '&b旋轉中...'
 Crash spinning description:
-  - '&6Press to withdraw your bet!'
+  - '&6按下以取回你的賭注!'
   - '&ex%bet text%'
-Crash game over: '&cGame Over!'
+Crash game over: '&c遊戲結束!'
 
 
 # ╔══════════════════╗
@@ -359,36 +357,36 @@ Crash game over: '&cGame Over!'
 
 #➥ CLASSIC TITLE AND DESCRIPTIONS
 
-Classic game title: '           &4❈ &4&lCLASSIC&r &4❈'
-Classic menu title: '&l❈ CLASSIC ❈'
+Classic game title: '&4❈ &4&l經典&r &4❈'
+Classic menu title: '&l❈ 經典 ❈'
 Classic menu description:
-  - '&e• &bMultiplayer.'
-  - '&e• &fYou have been given a line with the heads of the players!'
-  - '&e• &fYou are placing your bet! The higher the bet,'
-  - '&e• &fthe higher the chances of winning!'
-  - '&e• &fAt any time, you can increase it, thereby'
-  - '&e• &fincreasing the winning coefficient itself!'
+  - '&e• &b多人遊玩。'
+  - '&e• &f你被給予了一行玩家的頭像！'
+  - '&e• &f你正在下注！下注金額越高，'
+  - '&e• &f中獎機會越高！'
+  - '&e• &f隨時都可以增加它，從而'
+  - '&e• &f增加中獎係數本身！'
   - ' '
-  - '&fIf your head is selected - &ayou win!'
+  - '&f如果選中你的頭像 - &a你就贏了！'
 
 
 #➥ CLASSIC INFO
 
-Classic chances description line: '&e• &fChances of &e%player%: &5%procent%%'
-Classic waiting title: '&bWait for other players - &e%time% seconds...'
+Classic chances description line: '&e• &f%player% 的機會: &5%procent%%'
+Classic waiting title: '&b等待其他玩家 - &e%time% 秒...'
 Classic waiting description:
-  - '&fWait for the game to start!'
+  - '&f等待遊戲開始!'
   - '%chances%'
-Classic spinning title: '&bSpinning...'
+Classic spinning title: '&b旋轉中...'
 Classic spinning description:
-  - '&fWait for the game to end!'
+  - '&f等待遊戲結束!'
   - '%chances%'
-Classic game over title: '&cGame Over!'
+Classic game over title: '&c遊戲結束!'
 Classic game over description:
-  - '&fWinner: &e✯ %player% ✯'
+  - '&f勝利玩家: &e✯ %player% ✯'
 Classic icon title: '&e%player%'
 Classic icon description:
-  - '&fChance of Winning: &5%procent%%'
+  - '&f中獎機率: &5%procent%%'
 
 
 # ╔════════════════════╗
@@ -397,71 +395,71 @@ Classic icon description:
 
 #➥ BLACKJACK TITLE AND DESCRIPTIONS
 
-BlackJack game title: '          &4۞ &4&lBLACKJACK&r &4۞'
-BlackJack menu title: '&l۞ BLACKJACK ۞'
+BlackJack game title: '&4۞ &4&l21 點&r &4۞'
+BlackJack menu title: '&l۞ 21 點 ۞'
 BlackJack menu description:
-  - '&e• &bMultiplayer.'
-  - '&e• &fYour goal is to score exactly 21 points!'
-  - '&e• &fIf you score more, you lose!'
-  - '&e• &fIf you score more points than the dealer'
-  - '&e• &fand the players, you will receive a reward!'
-  - '&e• &fIf you have the same score, the one with fewer cards wins!'
-  - '&e• &fBut if the number of cards is the same, the prize is divided in half!'
+  - '&e• &b多人遊玩。'
+  - '&e• &f你的目標是得分恰好 21 點！'
+  - '&e• &f如果你得分超過 21 點，你就輸了！'
+  - '&e• &f如果你得分比莊家和其他玩家多'
+  - '&e• &f你將獲得獎勵！'
+  - '&e• &f如果得分相同，則擁有較少卡牌的人勝出！'
+  - '&e• &f但如果卡牌數相同，獎勵將平分！'
   - ' '
-  - '&fYou can &a&lDOUBLE&r &fyour bet and &c&lWITHDRAW&r'
-  - '&fpart of the bet at any time!'
+  - '&f你可以隨時 &a&l加倍&r &f你的賭注和 &c&l撤回&r'
+  - '&f部分賭注！'
 
 
 #➥ BLACKJACK BUTTONS
 
-BlackJack hit button title: '&a&lTAKE THE CARD'
+BlackJack hit button title: '&a&l要牌'
 BlackJack hit button description:
-  - '&a• &7When the dealer clears,'
-  - '&a• &7you can draw another card.'
+  - '&a• &7當莊家結算時，'
+  - '&a• &7你可以再抽一張卡。'
 
-BlackJack stay button title: '&e&lPASS'
+BlackJack stay button title: '&e&l停牌'
 BlackJack stay button description:
-  - '&e• &fStay with your cards.'
-  - '&e• &fSkip turn.'
+  - '&e• &f保留你的卡片。'
+  - '&e• &f跳過回合。'
 
-BlackJack stop button title: '&c&lQUIT THE GAME'
+BlackJack stop button title: '&c&l退出遊戲'
 BlackJack stop button description:
-  - '&c• &7Go out and get some'
-  - '&c• &7of the chips back.'
+  - '&c• &7退出並收回一部分'
+  - '&c• &7籌碼。'
 
-BlackJack double button title: '&b&lINCREASE RATE'
+BlackJack double button title: '&b&l提高賭注'
 BlackJack double button description:
-  - '&b• &7Increase your bet while playing'
-  - '&b• &7You can only take one card after.'
-  - '&b• &7Taken automatically from inventory!'
+  - '&b• &7遊戲進行中增加你的賭注'
+  - '&b• &7之後只能抽取一張卡'
+  - '&b• &7自動從背包扣除!'
 
-BlackJack timer title: '&3&lTIMER'
+BlackJack timer title: '&3&l計時器'
 BlackJack timer description:
   - '%timer status%'
 
-BlackJack timer status 1: '&7Place your bet to start the game!'
-BlackJack timer status 2: '&7Game over - Winner &e%player%&7!'
-BlackJack timer status 3: '&7Choose one of the actions...'
-BlackJack timer status 4: '&7The dealer opens the cards...'
-BlackJack timer status 5: '&7Deal of cards...'
-BlackJack timer status 6: '&7Before the beginning - &e%time%'
+BlackJack timer status 1: '&7下注以開始遊戲！'
+BlackJack timer status 2: '&7遊戲結束 - 獲勝者為 &e%player%&7！'
+BlackJack timer status 3: '&7選擇其中一個操作...'
+BlackJack timer status 4: '&7莊家打開卡片...'
+BlackJack timer status 5: '&7發牌...'
+BlackJack timer status 6: '&7開始前 - &e%time%'
 
-BlackJack dealer title: '&6☻ &6&lDEALER&r &6☻'
+BlackJack dealer title: '&6☻ &6&l莊家&r &6☻'
 BlackJack dealer description: []
 
-BlackJack draw: "&a&lDRAW"
+BlackJack draw: "&a&l平局"
 
-BlackJack card 1 title: '&3&lONE'
-BlackJack card 2 title: '&3&lTWO'
-BlackJack card 3 title: '&3&lTHREE'
-BlackJack card 4 title: '&3&lFOUR'
-BlackJack card 5 title: '&3&lFIVE'
-BlackJack card 6 title: '&3&lSIX'
-BlackJack card 7 title: '&3&lSEVEN'
-BlackJack card 8 title: '&3&lEIGHT'
-BlackJack card 9 title: '&3&lNINE'
-BlackJack card 10 title: '&3&lTEN'
-BlackJack card 11 title: '&3&lELEVEN'
+BlackJack card 1 title: '&3&l1'
+BlackJack card 2 title: '&3&l2'
+BlackJack card 3 title: '&3&l3'
+BlackJack card 4 title: '&3&l4'
+BlackJack card 5 title: '&3&l5'
+BlackJack card 6 title: '&3&l6'
+BlackJack card 7 title: '&3&l7'
+BlackJack card 8 title: '&3&l8'
+BlackJack card 9 title: '&3&l9'
+BlackJack card 10 title: '&3&l10'
+BlackJack card 11 title: '&3&l11'
 
 
 # ╔═══════════════════════════════════╗
@@ -470,8 +468,8 @@ BlackJack card 11 title: '&3&lELEVEN'
 
 #➥ ROCK, PAPER AND SCISSORS TITLE AND DESCRIPTION
 
-RockPaperScissors game title: '&4&lROCK, PAPER AND SCISSORS'
-RockPaperScissors menu title: '&l✄ ROCK, PAPER AND SCISSORS ✄'
+RockPaperScissors game title: '&4&l石頭，剪刀，布'
+RockPaperScissors menu title: '&l✄ 石頭，剪刀，布 ✄'
 RockPaperScissors menu description:
   - '&e• &cDuel.'
   - '&e• &fYour task is to defeat your opponent more than &a1 time.'
