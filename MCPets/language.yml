@@ -1,112 +1,96 @@
-inventory_pets_menu: §0☀ §4Pets §0☀
-inventory_pets_menu_interactions: §0☀ §4Pet §0☀
-mount_item_name: §6Mount
-mount_item_description: §7Click to mount your pet
-rename_item_name: §6Rename
-rename_item_description: §7Click to rename your pet
-back_to_petmenu_item_name: §cBack to menu
-back_to_petmenu_item_description: §7Click to get back to the menu
-inventory_item_name: §6Inventory
-inventory_item_description: §7Click to open the pet's inventory
-skins_item_name: §6Skins
-skins_item_description: §7Click to change your pet's skin
-equipment_item_name: §6Equipment
-equipment_description: §7Click to open your pet's equipment
-turnpage_item_name: §6Next page §7(§e%currentPage%§8/§7%maxPage%)
-turnpage_item_description: "§eRight click§7 to go forward \n§aLeft click§7 to go backward"
-nickname: '§9Nickname : §7%nickname%'
-nickname_item_lore: §cClick here to revoke your pet
-summoned: §7A pet has been summoned !
-revoked: §7Your pet was revoked.
-revoked_for_new_one: §7Your previous pet was revoked to summon the new one.
+inventory_pets_menu: §0☀ §4寵物系統 §0☀
+inventory_pets_menu_interactions: §0☀ §4寵物 §0☀
+mount_item_name: §6坐騎
+mount_item_description: §7點擊以騎乘你的寵物
+rename_item_name: §6重新命名
+rename_item_description: §7點擊以重新命名你的寵物
+back_to_petmenu_item_name: §c返回選單
+back_to_petmenu_item_description: §7點擊返回選單
+inventory_item_name: §6物品欄
+inventory_item_description: §7點擊以打開寵物的背包
+skins_item_name: §6外觀
+skins_item_description: §7點擊以更改寵物外觀
+equipment_item_name: §6裝備
+equipment_description: §7點擊以打開寵物的裝備欄
+turnpage_item_name: §6下一頁 §7(§e%currentPage%§8/§7%maxPage%)
+turnpage_item_description: "§e右鍵點擊§7前進 \n§a左鍵點擊§7後退"
+nickname: '§9暱稱 : §7%nickname%'
+nickname_item_lore: §c點擊這裡以收回寵物
+summoned: §7已召喚一隻寵物！
+revoked: §7你的寵物已被收回。
+revoked_for_new_one: §7你之前的寵物已被收回並召喚新的寵物。
 revoked_unknown: |-
-  §cThe pet could not be spawned due to one of the following reasons :
-  §7- The provided §cMythicMob in the pet config doesn't exist§7 (try to spawn it through /mm m spawn)§7.
-  §7- The world is on §cpeaceful or easy mode§7.
-  §7- A region §cprevents the mob from spawning§7 (the anchor is an aggressive mob most likely).
-  §7- You have a §cspawn protector plugin§7, try to spawn the mob in another world or far from spawn.
-  §7- There exist other pets with the §csame id§7. Make sure you have unique ids.
-mythicmob_null: §cThis pet could not be summoned. The associated mythicMob entity
-  or file is null or was removed.
-no_mob_match: §cThis pet could not be summoned. The associated mythicmob isn't registered
-  in MythicMobs.
-not_allowed: §cYou're not allowed to summon this pet.
-owner_not_found: §cThis pet could not be summoned. The summoner couldn't be found.
-revoked_before_changes: §cYour pet was revoked before the modifications could take
-  place.
-not_mountable: §cThis pet has no mounting point.
-already_mounting: §cYou are already riding something. Please dismount before you attempt
-  again.
-not_mountable_here: §cYou can't ride a pet in this area.
-cant_mount_pet_yet: §cYou do not have the permission to ride that pet.
-cant_follow_here: §cYour pet can't follow you in this area.
-type_name_in_chat: §aWrite down in the chat the name of your pet.
-if_wish_to_remove_name: §aIf you wish to remove it, write §c%tag%§a in the chat.
-nickname_changed_successfuly: §aNickname successfully changed !
-nickname_not_changed: §cNickname could not be changed due to it being an empty string.
-  Please try again.
-tag_to_remove_name: None
-already_inside_vehicule: §7You're already mounting something. Please dismount your
-  current mount to use this feature.
-pet_doesnt_exist: §cThis pet doesn't exist. Please check the id.
-player_not_connected: §cThe player §6%player%§c isn't connected.
-blacklisted_word: §cRename operation has been cancelled. The word %word% is not allowed
-  in a pet name.
-no_active_pet: §cYou have no active pet.
-signal_stick_given: §aYou've received an order stick. Right click to cast an order,
-  left click to switch orders.
-signal_stick_signal: '§6Active order : §e%signal%'
-loop_spawn: §cYour pet was revoked because it seems to struggle with numerous teleportations.
-requires_item_in_hand: §cYou must holding an item in your hand it update it in the
-  config.
-item_updated: '§aItem updated successful with the key : §e%key%'
-item_doesnt_exist: §aThe item with the key §e%key%§c doesn't exist. If you want to
-  add it you can use the §eadd§c argument instead.
-key_doesnt_exist: §cThe specified key is not registered.
-key_removed: §aThe key item was removed succesfully.
-key_already_exists: §cThis key is already registered. Use it to replace the current
-  item.
-key_added: §aKey added successfully with the corresponding item.
-key_list: '§aAvailable keys :'
-reload_success: §aReloaded successfully.
-how_many_pets_loaded: §a%numberofpets% were registered successfully
-requires_modelengine: §cThis plugin requires ModelEngine r2.3.1. It seems that this
-  requirement is not satisfied.
-usage: "§cThis command doesn't exist. \n§7Check out the wiki: §nhttps://alexandre-chaussard.gitbook.io/mcpets/tutorials/plugin-features/commands"
-no_perm: §cYou're not allowed to use this command.
-blacklisted_world: §cMCPets is disabled in this world.
-category_pet_amount: §e%petAmount% §6registered
-category_menu_title: §0☀ §4Pets §8- Pick a category §0☀
-category_doesnt_exist: §cThis category does not exist.
-pet_inventory_title: §0☀ §4%pet% §8- §0Inventory §0☀§
-pet_skins_title: §0☀ §4%pet% §8- §0Skins §0☀§
-skin_could_not_apply: §cThe skin could not be applied to the pet.
-skin_applied: §aSkin changed successfully !
-global_respawn_timer_running: §cThis pet could not be spawned. You need to wait %timeLeft%s/%cooldown%s.
-respawn_timer_running: §cThis pet could not be spawned. It's still recovering from
-  its wounds. You need to wait %timeLeft%s/%cooldown%s.
-revoke_timer_running: §cThis pet could not be spawned. It's still recovering from
-  its wounds. You need to wait %timeLeft%s/%cooldown%s.
-player_or_pet_doesnt_exist: §cThis pet doesn't exist, or this player has never played
-  on your server.
-stats_cleared: §aAll stats have been cleared successfully !
-stats_cleared_for_pet_for_player: §aAll stats have been cleared successfully for the
-  pet %petId% for the player %player%.
-stats_cleared_for_pet: §aAll stats have been cleared successfully for the pet %petId%
-pet_taming_progress: §7Taming progress §a%progress%% §7- %progressbar%
-pet_could_not_evolve: §7Your pet could not evolve because §cyou already own the evolution§7.
-petfood_doesnt_exist: §cThis pet food doesn't exist.
-petunlock_noperm: §cYou are not allowed to use this item to unlock the pet.
-petunlocked: §aYou've unlocked the pet %petName%, congratulations !
-petunlocked_already: §cYou already own the pet §6%petName%§c.
-pet_already_tamed: §cThis pet is already tamed.
-pet_doesnt_eat: §cThis pet can not eat that food.
-pet_status_alive: §aAvailable
-pet_status_revoked: §cUnavailable §7(%timeleft%s left)
-pet_status_dead: §cDead §7(%timeleft%s left)
-pet_stats: "§6✦ Pet's Information ✦\n§7Status: %status%\n§6Level §7- §6%levelname%\n\
-  \ \n§f%health%§7/§f%maxhealth% §c❤\n§7Regeneration: %regeneration% ❤/s\n§7Damage\
-  \ Modifier: §f%damagemodifier%%\n§7Resistance Modifier: §f%resistancemodifier%%\n\
-  §7Power: §f%power%%\n \n§7Experience: §a%experience%/%threshold% xp\n%progressbar%"
-debugger_joining: §aDebugger is enabled. You are now listening to it.
-debugger_leave: §aDebugger is §7disabled§a. You will not be listening to it anymore.
+  §c由於以下原因之一，無法生成寵物：
+  §7- 寵物配置中提供的 §cMythicMob 不存在§7（嘗試通過 /mm m spawn 來生成它）§7。
+  §7- 世界處於 §c和平或簡單模式§7。
+  §7- 一個區域阻止了該生物的生成§7（錨點很可能是一種攻擊性生物）。
+  §7- 你使用了一個 §c生成保護插件§7，請嘗試在另一個世界或遠離生成點生成該生物。
+  §7- 存在具有相同 §cID 的其他寵物§7。請確保你的寵物ID是唯一姓的。
+mythicmob_null: §c無法召喚此寵物。關聯的MythicMob實體或文件為空或已刪除。
+no_mob_match: §c無法召喚此寵物。關聯的MythicMob未在MythicMobs中註冊。
+not_allowed: §c你沒有權限召喚此寵物。
+owner_not_found: §c無法召喚此寵物。找不到召喚者。
+revoked_before_changes: §c在修改之前，你的寵物已被收回。
+not_mountable: §c此寵物不能夠進行騎乘。
+already_mounting: §c你已經在騎乘某物。請先離開再嘗試。
+not_mountable_here: §c你不能在此區域騎乘寵物。
+cant_mount_pet_yet: §c你無權騎乘該寵物。
+cant_follow_here: §c你的寵物無法在此區域跟隨你。
+type_name_in_chat: §a在聊天欄中輸入新的寵物名字。
+if_wish_to_remove_name: §a如果你希望刪除名字，請在聊天中輸入 §c%tag%§a。
+nickname_changed_successfuly: §a成功更改暱稱！
+nickname_not_changed: §c無法更改暱稱，因為它是空字符串。請重試。
+tag_to_remove_name: 無
+already_inside_vehicule: §7你已經在騎乘某物。請卸下你目前的騎乘物以使用此功能。
+pet_doesnt_exist: §c此寵物不存在。請檢查ID。
+player_not_connected: §c玩家 §6%player%§c 未連接。
+blacklisted_word: §c重命名操作已取消。單詞 %word% 在寵物名稱中不允許。
+no_active_pet: §c你沒有活躍的寵物。
+signal_stick_given: §a你已經收到一根指令棒。右鍵點擊以發送指令，左鍵點擊以切換指令。
+signal_stick_signal: '§6當前指令 : §e%signal%'
+loop_spawn: §c由於看起來寵物正在經歷多次傳送，你的寵物已被撤銷。
+requires_item_in_hand: §c你必須手持一個物品以在配置文件中更新它。
+item_updated: '§a成功使用關鍵字更新物品 : §e%key%'
+item_doesnt_exist: §a使用關鍵字 §e%key%§c 的物品不存在。如果要添加它，可以改用 §eadd§c 參數。
+key_doesnt_exist: §c指定的關鍵字未註冊。
+key_removed: §a已成功刪除關鍵字物品。
+key_already_exists: §c此關鍵字已經註冊。你可以使用它來替換當前的物品。
+key_added: §a已成功添加關鍵字以及相應的物品。
+key_list: '§a可用的關鍵字：'
+reload_success: §a重新加載成功。
+how_many_pets_loaded: §a已成功註冊 %numberofpets%。
+requires_modelengine: §c此插件需要 ModelEngine r2.3.1。似乎未滿足此要求。
+usage: "§c此命令不存在。\n§7查看Wiki：§nhttps://alexandre-chaussard.gitbook.io/mcpets/tutorials/plugin-features/commands"
+no_perm: §c你無權使用此命令。
+blacklisted_world: §c在此世界中禁用了MCPets。
+category_pet_amount: §e%petAmount% §6已註冊
+category_menu_title: §0☀ §4寵物 §8- 選擇一個類別 §0☀
+category_doesnt_exist: §c此類別不存在。
+pet_inventory_title: §0☀ §4%pet% §8- §0物品欄 §0☀
+pet_skins_title: §0☀ §4%pet% §8- §0外觀 §0☀
+skin_could_not_apply: §c無法將外觀應用於寵物。
+skin_applied: §a外觀已成功更改！
+global_respawn_timer_running: §c無法生成此寵物。你需要等待 %timeLeft% 秒/%cooldown% 秒。
+respawn_timer_running: §c無法生成此寵物。它仍在從傷勢中恢復。你需要等待 %timeLeft% 秒/%cooldown% 秒。
+revoke_timer_running: §c無法生成此寵物。它仍在從傷勢中恢復。你需要等待 %timeLeft% 秒/%cooldown% 秒。
+player_or_pet_doesnt_exist: §c此寵物不存在，或該玩家從未在你的伺服器上遊玩過。
+stats_cleared: §a所有統計信息已成功清除！
+stats_cleared_for_pet_for_player: §a已成功為玩家 %player% 的寵物 %petId% 清除所有統計信息。
+stats_cleared_for_pet: §a已成功清除寵物 %petId% 的所有統計信息。
+pet_taming_progress: §7馴服進度 §a%progress%% §7- %progressbar%
+pet_could_not_evolve: §7你的寵物無法進化，因為§c你已擁有進化形態§7。
+petfood_doesnt_exist: §c此寵物食物不存在。
+petunlock_noperm: §c你無權使用此物品來解鎖寵物。
+petunlocked: §a你已解鎖寵物 %petName%，恭喜！
+petunlocked_already: §c你已經擁有寵物 %petName%。
+pet_already_tamed: §c此寵物已經被馴服。
+pet_doesnt_eat: §c此寵物無法食用該食物。
+pet_status_alive: §a可用
+pet_status_revoked: §c不可用 §7（剩餘 %timeleft% 秒）
+pet_status_dead: §c死亡 §7（剩餘 %timeleft% 秒）
+pet_stats: "§6✦ 寵物資訊 ✦\n§7狀態：%status%\n§6等級 §7- §6%levelname%\n
+\ \n§f%health%§7/§f%maxhealth% §c❤\n§7恢復：%regeneration% ❤/s\n§7傷害
+修正：%damagemodifier%%\n§7抵抗修正：%resistancemodifier%%\n
+§7力量：%power%%\n \n§7經驗：%a%experience%/%threshold% xp\n%progressbar%"
+debugger_joining: §a調試器已啟用。你現在正在監聽它。
+debugger_leave: §a調試器已§7停用§a。你將不再監聽它。
