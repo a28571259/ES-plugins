@@ -1,5 +1,5 @@
-Prefix: '§8[§6MCPets§8] » '
-DefaultName: §9Pet of %player%
+Prefix: '§8[§6寵物系統§8] » '
+DefaultName: §9 %player% 的寵物
 OverrideDefaultName: true
 EnableClickBackToMenu: true
 UseDefaultMythicMobsNames: false
