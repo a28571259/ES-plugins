@@ -41,14 +41,14 @@ if_wish_to_remove_name: §a如果你希望刪除名字，請在聊天中輸入 �
 nickname_changed_successfuly: §a成功更改暱稱！
 nickname_not_changed: §c無法更改暱稱，因為它是空字符串。請重試。
 tag_to_remove_name: 無
-already_inside_vehicule: §7你已經在騎乘某物。請卸下你目前的騎乘物以使用此功能。
+already_inside_vehicule: §7你目前正在騎乘中。請離開你目前的騎乘物以使用此功能。
 pet_doesnt_exist: §c此寵物不存在。請檢查ID。
-player_not_connected: §c玩家 §6%player%§c 未連接。
-blacklisted_word: §c重命名操作已取消。單詞 %word% 在寵物名稱中不允許。
-no_active_pet: §c你沒有活躍的寵物。
+player_not_connected: §c玩家 §6%player%§c 未上線。
+blacklisted_word: §c重新命名操作已取消。%word% 在寵物名稱中不允許。
+no_active_pet: §c你沒有選擇一隻寵物。
 signal_stick_given: §a你已經收到一根指令棒。右鍵點擊以發送指令，左鍵點擊以切換指令。
 signal_stick_signal: '§6當前指令 : §e%signal%'
-loop_spawn: §c由於看起來寵物正在經歷多次傳送，你的寵物已被撤銷。
+loop_spawn: §c由於看起來寵物正在經歷多次傳送，你的寵物已被強制收回。
 requires_item_in_hand: §c你必須手持一個物品以在配置文件中更新它。
 item_updated: '§a成功使用關鍵字更新物品 : §e%key%'
 item_doesnt_exist: §a使用關鍵字 §e%key%§c 的物品不存在。如果要添加它，可以改用 §eadd§c 參數。
@@ -60,8 +60,8 @@ key_list: '§a可用的關鍵字：'
 reload_success: §a重新加載成功。
 how_many_pets_loaded: §a已成功註冊 %numberofpets%。
 requires_modelengine: §c此插件需要 ModelEngine r2.3.1。似乎未滿足此要求。
-usage: "§c此命令不存在。\n§7查看Wiki：§nhttps://alexandre-chaussard.gitbook.io/mcpets/tutorials/plugin-features/commands"
-no_perm: §c你無權使用此命令。
+usage: "§c此指令不存在。\n§7查看Wiki：§nhttps://alexandre-chaussard.gitbook.io/mcpets/tutorials/plugin-features/commands"
+no_perm: §c你沒有權限使用此指令。
 blacklisted_world: §c在此世界中禁用了MCPets。
 category_pet_amount: §e%petAmount% §6已註冊
 category_menu_title: §0☀ §4寵物 §8- 選擇一個類別 §0☀
@@ -78,9 +78,9 @@ stats_cleared: §a所有統計信息已成功清除！
 stats_cleared_for_pet_for_player: §a已成功為玩家 %player% 的寵物 %petId% 清除所有統計信息。
 stats_cleared_for_pet: §a已成功清除寵物 %petId% 的所有統計信息。
 pet_taming_progress: §7馴服進度 §a%progress%% §7- %progressbar%
-pet_could_not_evolve: §7你的寵物無法進化，因為§c你已擁有進化形態§7。
+pet_could_not_evolve: §7你的寵物無法進化，因為§c你已擁有最終進化形態§7。
 petfood_doesnt_exist: §c此寵物食物不存在。
-petunlock_noperm: §c你無權使用此物品來解鎖寵物。
+petunlock_noperm: §c你沒有權限使用此物品來解鎖寵物。
 petunlocked: §a你已解鎖寵物 %petName%，恭喜！
 petunlocked_already: §c你已經擁有寵物 %petName%。
 pet_already_tamed: §c此寵物已經被馴服。
@@ -92,5 +92,5 @@ pet_stats: "§6✦ 寵物資訊 ✦\n§7狀態：%status%\n§6等級 §7- §6%le
 \ \n§f%health%§7/§f%maxhealth% §c❤\n§7恢復：%regeneration% ❤/s\n§7傷害
 修正：%damagemodifier%%\n§7抵抗修正：%resistancemodifier%%\n
 §7力量：%power%%\n \n§7經驗：%a%experience%/%threshold% xp\n%progressbar%"
-debugger_joining: §a調試器已啟用。你現在正在監聽它。
-debugger_leave: §a調試器已§7停用§a。你將不再監聽它。
+debugger_joining: §a調試器已啟用。你現在正在監聽。
+debugger_leave: §a調試器已§7停用§a。你將不再監聽。
