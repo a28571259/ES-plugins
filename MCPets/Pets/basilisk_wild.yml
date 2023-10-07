@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bWild Basilisk
+  Name: §b野生巨蛇
   Material: BRICK
   CustomModelData: 2537
   Description:
-  - §fGet your pet Wild Basilisk!
+  - §f取得寵物【野生巨蛇】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b指引之羽
     Material: FEATHER
 Skins:
   Basilisk_Wild:
@@ -25,24 +25,24 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2537
-      DisplayName: §2Wild Basilisk
+      DisplayName: §2野生巨蛇
       Lore:
-      - §fGet your pet Wild Basilisk!
+      - §f取得寵物【野生巨蛇】!
   Basilisk_Obsidian:
     MythicMob: Basilisk_Obsidian
     Permission: skin.basilisk_obsidian
     Icon:
       Material: BRICK
       CustomModelData: 2535
-      DisplayName: §9Obsidian Basilisk
+      DisplayName: §9黑曜巨蛇
       Lore:
-      - §fGet your pet Obsidian Basilisk!
+      - §f取得寵物【黑曜巨蛇】!
   Basilisk_Snowstorm:
     MythicMob: Basilisk_Snowstorm
     Permission: skin.basilisk_snowstorm
     Icon:
       Material: BRICK
       CustomModelData: 2536
-      DisplayName: §bSnowstorm Basilisk
+      DisplayName: §b暴風雪巨蛇
       Lore:
-      - §fGet your pet Snowstorm Basilisk!
+      - §f取得寵物【暴風雪巨蛇】!
