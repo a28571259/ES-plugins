@@ -8,16 +8,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bSculk Dragon
+  Name: §b隱痕龍
   Material: BRICK
   CustomModelData: 2503
   Description:
-  - §fGet your pet Sculk Dragon!
+  - §f點擊取得寵物【隱痕龍】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信號羽毛
     Material: FEATHER
 Skins:
   Dragon_Sculk:
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2503
-      DisplayName: §3Sculk Dragon
+      DisplayName: §3隱痕龍
       Lore:
-      - §fGet your pet Sculk Dragon!
+      - §f點擊取得寵物【隱痕龍】!
   Dragon_Nether:
     MythicMob: Dragon_Nether
     Permission: skin.dragon_nether
     Icon:
       Material: BRICK
       CustomModelData: 2502
-      DisplayName: §cNether Dragon
+      DisplayName: §c地獄龍
       Lore:
-      - §fGet your pet Nether Dragon!
+      - §f點擊取得寵物【地獄龍】!
   Dragon_Glacial:
     MythicMob: Dragon_Glacial
     Permission: skin.dragon_glacial
     Icon:
       Material: BRICK
       CustomModelData: 2501
-      DisplayName: §fGlacial Dragon
+      DisplayName: §f冰霜龍
       Lore:
-      - §fGet your pet Glacial Dragon!
+      - §f點擊取得寵物【冰霜龍】!
   Dragon_Desert:
     MythicMob: Dragon_Desert
     Permission: skin.dragon_desert
     Icon:
       Material: BRICK
       CustomModelData: 2500
-      DisplayName: §eDesert Dragon
+      DisplayName: §e沙漠龍
       Lore:
-      - §fGet your pet Desert Dragon!
+      - §f點擊取得寵物【沙漠龍】!

@@ -11,7 +11,7 @@ Icon:
   Material: BRICK
   CustomModelData: 2537
   Description:
-  - §f取得寵物【野生巨蛇】!
+  - §f點擊取得寵物【野生巨蛇】!
 Signals:
   Values:
   - DASH
@@ -27,7 +27,7 @@ Skins:
       CustomModelData: 2537
       DisplayName: §2野生巨蛇
       Lore:
-      - §f取得寵物【野生巨蛇】!
+      - §f點擊取得寵物【野生巨蛇】!
   Basilisk_Obsidian:
     MythicMob: Basilisk_Obsidian
     Permission: skin.basilisk_obsidian
@@ -36,7 +36,7 @@ Skins:
       CustomModelData: 2535
       DisplayName: §9黑曜巨蛇
       Lore:
-      - §f取得寵物【黑曜巨蛇】!
+      - §f點擊取得寵物【黑曜巨蛇】!
   Basilisk_Snowstorm:
     MythicMob: Basilisk_Snowstorm
     Permission: skin.basilisk_snowstorm
@@ -45,4 +45,4 @@ Skins:
       CustomModelData: 2536
       DisplayName: §b暴風雪巨蛇
       Lore:
-      - §f取得寵物【暴風雪巨蛇】!
+      - §f點擊取得寵物【暴風雪巨蛇】!

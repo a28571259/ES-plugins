@@ -7,15 +7,15 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bCapybara
+  Name: §b水豚
   Material: BRICK
   CustomModelData: 2520
   Description:
-  - §fGet your pet Capybara!
+  - §f點擊取得寵物【水豚】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信號羽毛
     Material: FEATHER
 # 1222354326466351683720808

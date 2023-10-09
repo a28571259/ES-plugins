@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bGreen Frog
+  Name: §b綠青蛙
   Material: BRICK
   CustomModelData: 2553
   Description:
-  - §fGet your pet Green Frog!
+  - §f點擊取得寵物【綠青蛙】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信號羽毛
     Material: FEATHER
 Skins:
   Frog_Green:
@@ -25,24 +25,24 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2553
-      DisplayName: §aGreen Frog
+      DisplayName: §a綠青蛙
       Lore:
-      - §fGet your pet Green Frog!
+      - §f點擊取得寵物【綠青蛙】!
   Frog_Permafrost:
     MythicMob: Frog_Permafrost
     Permission: skin.frog_permafrost
     Icon:
       Material: BRICK
       CustomModelData: 2554
-      DisplayName: §bPermafrost Frog
+      DisplayName: §b冰霜青蛙
       Lore:
-      - §fGet your pet Permafrost Frog!
+      - §f點擊取得寵物【冰霜青蛙】!
   Frog_Royal:
     MythicMob: Frog_Royal
     Permission: skin.frog_royal
     Icon:
       Material: BRICK
       CustomModelData: 2555
-      DisplayName: §eRoyal Frog
+      DisplayName: §e皇室青蛙
       Lore:
-      - §fGet your pet Royal Frog!
+      - §f點擊取得寵物【皇室青蛙】!
