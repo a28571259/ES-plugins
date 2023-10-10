@@ -7,18 +7,18 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §6Aether Dragon
+  Name: §6乙太龍
   Material: BRICK
   CustomModelData: 3500
-  Description:
-  - §fGet your pet Aether Dragon!
+Description:
+  - §f點擊取得寵物【乙太龍】!
   - ''
-  - §f[§6Flash§f]
-  - §fYour Aether Dragon creates a flash
-  - §fof light, stunning nearby enemies.
+  - §f[§6閃光§f]
+  - §f乙太龍會創造一道閃光，
+  - §f使附近的敵人暈眩。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -30,7 +30,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -42,10 +42,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -57,10 +57,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &d史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳說
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &e傳說 &6!'
       Type: CHAT

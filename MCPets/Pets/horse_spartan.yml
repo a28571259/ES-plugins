@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bSpartan Horse
+  Name: §b斯巴達戰馬
   Material: BRICK
   CustomModelData: 2524
   Description:
-  - §fGet your pet Spartan Horse!
+  - §f點擊取得寵物【斯巴達戰馬】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Horse_Spartan:
@@ -25,34 +25,34 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2524
-      DisplayName: §6Spartan Horse
+      DisplayName: §6斯巴達戰馬
       Lore:
-      - §fGet your pet Spartan Horse!
+      - §f點擊取得寵物【斯巴達戰馬】!
   Horse_Unicorn:
     MythicMob: Horse_Unicorn
     Permission: skin.horse_unicorn
     Icon:
       Material: BRICK
       CustomModelData: 2525
-      DisplayName: §6Unicorn
+      DisplayName: §6獨角獸
       Lore:
-      - §fGet your pet Unicorn!
+      - §f點擊取得寵物【獨角獸】!
   Horse_Glacial:
     MythicMob: Horse_Glacial
     Permission: skin.horse_glacial
     Icon:
       Material: BRICK
       CustomModelData: 2521
-      DisplayName: §bGlacial Horse
+      DisplayName: §b冰霜戰馬
       Lore:
-      - §fGet your pet Glacial Horse!
+      - §f點擊取得寵物【冰霜戰馬】!
   Horse_Magma:
     MythicMob: Horse_Magma
     Permission: skin.horse_magma
     Icon:
       Material: BRICK
       CustomModelData: 2522
-      DisplayName: §cMagma Horse
+      DisplayName: §c熔岩戰馬
       Lore:
-      - §fGet your pet Magma Horse!
+      - §f點擊取得寵物【熔岩戰馬】!
 # 1222354326466351683720808

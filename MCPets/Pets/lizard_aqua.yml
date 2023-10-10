@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bAqua Lizard
+  Name: §b水蜥蜴
   Material: BRICK
   CustomModelData: 2504
   Description:
-  - §fGet your pet Aqua Lizard!
+  - §f點擊取得寵物【水蜥蜴】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Lizard_Aqua:
@@ -25,15 +25,15 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2504
-      DisplayName: §bAqua Lizard
+      DisplayName: §b水蜥蜴
       Lore:
-      - §fGet your pet Aqua Lizard!
+      - §f點擊取得寵物【水蜥蜴】!
   Lizard_Lava:
     MythicMob: Lizard_Lava
     Permission: skin.lizard_lava
     Icon:
       Material: BRICK
       CustomModelData: 2505
-      DisplayName: §cLava Lizard
+      DisplayName: §c火焰蜥蜴
       Lore:
-      - §fGet your pet Lava Lizard!
+      - §f點擊取得寵物【火焰蜥蜴】!

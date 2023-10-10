@@ -8,15 +8,15 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §fPegasus
+  Name: §f飛馬
   Material: BRICK
   CustomModelData: 2523
   Description:
-  - §fGet your pet Pegasus!
+  - §f點擊取得寵物【飛馬】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 # 1222354326466351683720808

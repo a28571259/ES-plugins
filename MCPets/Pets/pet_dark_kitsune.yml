@@ -7,18 +7,18 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §9Dark Kitsune
+  Name: §9暗影狐狸
   Material: BRICK
   CustomModelData: 3502
   Description:
-  - §fGet your pet Dark Kitsune!
+  - §f點擊取得寵物【暗影狐狸】!
   - ''
-  - §f[§9Shadow Ball§f]
-  - §fYour Dark Kitsune fires a shadow ball
-  - §fthat levitates enemies.
+  - §f[§9暗影之球§f]
+  - §f黑暗狐狸會發射一顆暗影之球，
+  - §f使敵人漂浮。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -30,7 +30,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -42,10 +42,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -57,10 +57,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &d史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳說
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6階級提升! 你的寵物階級現在為 &e傳說 &6!'
       Type: CHAT

@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bArcane Golem
+  Name: §b奧術魔像
   Material: BRICK
   CustomModelData: 2556
   Description:
-  - §fGet your pet Arcane Golem!
+  - §f點擊取得寵物【奧術魔像】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信號羽毛
     Material: FEATHER
 Skins:
   Golem_Arcane:
@@ -25,33 +25,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2556
-      DisplayName: §bArcane Golem
+      DisplayName: §b奧術魔像
       Lore:
-      - §fGet your pet Arcane Golem!
+      - §f點擊取得寵物【奧術魔像】!
   Golem_Corrupted:
     MythicMob: Golem_Corrupted
     Permission: skin.golem_corrupted
     Icon:
       Material: BRICK
       CustomModelData: 2557
-      DisplayName: §2Corrupted Golem
+      DisplayName: §2腐化魔像
       Lore:
-      - §fGet your pet Corrupted Golem!
+      - §f點擊取得寵物【腐化魔像】!
   Golem_Magma:
     MythicMob: Golem_Magma
     Permission: skin.golem_magma
     Icon:
       Material: BRICK
       CustomModelData: 2558
-      DisplayName: §cMagma Golem
+      DisplayName: §c岩漿魔像
       Lore:
-      - §fGet your pet Magma Golem!
+      - §f點擊取得寵物【岩漿魔像】!
   Golem_Royal:
     MythicMob: Golem_Royal
     Permission: skin.golem_royal
     Icon:
       Material: BRICK
       CustomModelData: 2559
-      DisplayName: §eRoyal Golem
+      DisplayName: §e皇室魔像
       Lore:
-      - §fGet your pet Royal Golem!
+      - §f點擊取得寵物【皇室魔像】!

@@ -7,16 +7,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bKitsune
+  Name: §b狐狸精
   Material: BRICK
   CustomModelData: 2528
   Description:
-  - §fGet your pet Kitsune!
+  - §f點擊取得寵物【狐狸精】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Kitsune_Normal:
@@ -25,25 +25,25 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2528
-      DisplayName: §6Normal Kitsune
+      DisplayName: §6普通狐狸精
       Lore:
-      - §fGet your pet Kitsune!
+      - §f點擊取得寵物【普通狐狸精】!
   Kitsune_Inferno:
     MythicMob: Kitsune_Inferno
     Permission: skin.kitsune_inferno
     Icon:
       Material: BRICK
       CustomModelData: 2527
-      DisplayName: §cInferno Kitsune
+      DisplayName: §c地獄狐狸精
       Lore:
-      - §fGet your pet Inferno Kitsune!
+      - §f點擊取得寵物【地獄狐狸精】!
   Kitsune_Demonic:
     MythicMob: Kitsune_Demonic
     Permission: skin.kitsune_demonic
     Icon:
       Material: BRICK
       CustomModelData: 2526
-      DisplayName: §4Demonic Kitsune
+      DisplayName: §4惡魔狐狸精
       Lore:
-      - §fGet your pet Demonic Kitsune!
+      - §f點擊取得寵物【惡魔狐狸精】!
 # 1222354326466351683720808

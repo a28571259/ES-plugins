@@ -8,16 +8,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bHippogryph
+  Name: §b獨角獅鷲
   Material: BRICK
   CustomModelData: 2538
   Description:
-  - §fGet your pet Hippogryph!
+  - §f點擊取得寵物【獨角獅鷲】!
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Hippogryph_Common:
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2538
-      DisplayName: §6Hippogryph
+      DisplayName: §6獨角獅鷲
       Lore:
-      - §fGet your pet Hippogryph!
+      - §f點擊取得寵物【獨角獅鷲】!
   Hippogryph_Crystal:
     MythicMob: Hippogryph_Crystal
     Permission: skin.hippogryph_crystal
     Icon:
       Material: BRICK
       CustomModelData: 2539
-      DisplayName: §bCrystal Hippogryph
+      DisplayName: §b水晶獨角獅鷲
       Lore:
-      - §fGet your pet Crystal Hippogryph!
+      - §f點擊取得寵物【水晶獨角獅鷲】!
   Hippogryph_Fallen:
     MythicMob: Hippogryph_Fallen
     Permission: skin.hippogryph_fallen
     Icon:
       Material: BRICK
       CustomModelData: 2540
-      DisplayName: §4Fallen Hippogryph
+      DisplayName: §4墮落獨角獅鷲
       Lore:
-      - §fGet your pet Fallen Hippogryph!
+      - §f點擊取得寵物【墮落獨角獅鷲】!
   Hippogryph_Royal:
     MythicMob: Hippogryph_Royal
     Permission: skin.hippogryph_royal
     Icon:
       Material: BRICK
       CustomModelData: 2541
-      DisplayName: §eRoyal Hippogryph
+      DisplayName: §e皇室獨角獅鷲
       Lore:
-      - §fGet your pet Royal Hippogryph!
+      - §f點擊取得寵物【皇室獨角獅鷲】!
