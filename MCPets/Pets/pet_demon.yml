@@ -7,14 +7,14 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §cDemon
+  Name: §c惡魔
   Material: BRICK
   CustomModelData: 3503
   Description:
-  - §fGet your pet Demon!
+  - §fGet your pet 惡魔!
   - ''
   - §f[§cPower up§f]
-  - §fYour Demon gives you a strength buff.
+  - §fYour 惡魔 gives you a strength buff.
 Levels:
   Lvl_Common:
     Name: §fCommon
